@@ -5,7 +5,7 @@ export default defineNuxtConfig({
   //   'nuxt-electron',
   // ],
   app: {
-    baseURL:'/anotherdream/',
+    baseURL: '/anotherdream/',
     head: {
       htmlAttrs: {
         lang: 'ko',
@@ -13,9 +13,9 @@ export default defineNuxtConfig({
       title: '주문서 변환기',
     },
   },
-  router: {
-    options: {
-      hashMode: true,
-    }
-  }
+  // router: {
+  //   options: {
+  //     hashMode: true,
+  //   }
+  // }
 });
