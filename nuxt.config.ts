@@ -5,7 +5,7 @@ export default defineNuxtConfig({
   //   'nuxt-electron',
   // ],
   app: {
-    baseURL:'//',
+    baseURL:'/anotherdream/',
     head: {
       htmlAttrs: {
         lang: 'ko',
