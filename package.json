@@ -1,0 +1,34 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "version": "1.0.0",
+  "productName": "엑셀파일 변환기",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "build:electron": "nuxi build --prerender && electron-builder",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.194",
+    "@types/node": "^18",
+    "electron": "^24.1.2",
+    "electron-builder": "^23.6.0",
+    "nuxt": "^3.4.2",
+    "nuxt-electron": "^0.4.5",
+    "vite-electron-plugin": "^0.8.2",
+    "vite-plugin-electron-renderer": "^0.14.1"
+  },
+  "dependencies": {
+    "@vueuse/core": "^10.1.0",
+    "@vueuse/nuxt": "^10.1.0",
+    "dayjs": "^1.11.7",
+    "lodash": "^4.17.21",
+    "xlsx": "^0.18.5"
+  },
+  "build": {
+    "appId": "com.hyejikim.xlsx"
+  }
+}
